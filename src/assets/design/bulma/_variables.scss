@@ -1,0 +1,24 @@
+//* see all variables
+//* https://bulma.io/documentation/customize/variables/
+
+//* this file is imported from _bulma.scss
+
+
+//^ Import initial variables and helper functions first
+@import "./node_modules/bulma/sass/utilities/initial-variables";
+@import "./node_modules/bulma/sass/utilities/functions";
+
+//^ Import Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Syne+Mono&display=swap');
+
+//^ my family of font
+$family-sans-serif:'Roboto', sans-serif;
+$family-monospaced:'Syne Mono', monospace;
+
+
+//^ overwrite bulma's variablse
+$family-primary: $family-sans-serif;
+
+//^ Let it derive the remaining variables and apply the rules
+@import "./node_modules/bulma/sass/utilities/derived-variables.sass";
+
