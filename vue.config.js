@@ -11,7 +11,7 @@ module.exports = {
   //^ autoinjection of the main.scss in script with lang="scss"
   css: {
     loaderOptions: {
-      sass: {
+      scss: {
         additionalData: `@import "@/assets/design/main.scss";` 
       }
     }

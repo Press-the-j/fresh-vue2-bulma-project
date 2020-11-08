@@ -18,6 +18,6 @@ export default {
 </script>
 
 <style lang="scss">
-
+@import "@/assets/design/main.scss";
 
 </style>
